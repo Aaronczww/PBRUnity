@@ -5,9 +5,9 @@ using UnityEngine;
 public class PBRParaSet : MonoBehaviour
 {
     [SerializeField,Range(0,1)]
-    public float _Smoothness;
+    public float _Roughness;
     [SerializeField, Range(0, 1)]
-    public float metallic;
+    public float _Metallic;
 
     public Renderer render;
 
@@ -19,8 +19,8 @@ public class PBRParaSet : MonoBehaviour
     }
     private void Update()
     {
-        materialProperty.SetFloat("_Smoothness", _Smoothness);
-        materialProperty.SetFloat("metallic", metallic);
+        materialProperty.SetFloat("_Roughness", _Roughness);
+        materialProperty.SetFloat("_Metallic", _Metallic);
         render.SetPropertyBlock(materialProperty);
     }
 }
