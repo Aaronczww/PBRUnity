@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 71f14a2d79f732f4d9893ef1b911f4ff, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 4067de1a02072244798361060c5e7325, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -151,8 +151,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f80af2cb6fc685245b40b00dcfcfd3b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Roughness: 0
-  _Metallic: 0
+  _Roughness: 0.142
+  _Metallic: 0.158
   render: {fileID: 194012859}
 --- !u!23 &194012859
 MeshRenderer:
@@ -245,8 +245,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f80af2cb6fc685245b40b00dcfcfd3b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Roughness: 0
-  _Metallic: 0
+  _Roughness: 0.934
+  _Metallic: 0.946
   render: {fileID: 248125532}
 --- !u!23 &248125532
 MeshRenderer:
@@ -370,7 +370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Roughness: 0
-  _Metallic: 0
+  _Metallic: 1
   render: {fileID: 481614352}
 --- !u!23 &481614352
 MeshRenderer:
@@ -426,7 +426,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481614350}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.4000001, y: 1, z: -5}
+  m_LocalPosition: {x: 1.4, y: 1, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -463,8 +463,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f80af2cb6fc685245b40b00dcfcfd3b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Roughness: 0
-  _Metallic: 0
+  _Roughness: 0.501
+  _Metallic: 0.501
   render: {fileID: 509542205}
 --- !u!23 &509542205
 MeshRenderer:
@@ -731,7 +731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f80af2cb6fc685245b40b00dcfcfd3b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Roughness: 0
+  _Roughness: 0.046
   _Metallic: 0
   render: {fileID: 870705625}
 --- !u!23 &870705625
@@ -825,7 +825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f80af2cb6fc685245b40b00dcfcfd3b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Roughness: 0
+  _Roughness: 1
   _Metallic: 0
   render: {fileID: 972990779}
 --- !u!23 &972990779

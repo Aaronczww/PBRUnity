@@ -150,7 +150,7 @@ public class EnvMapEditor : EditorWindow
             input_cubemap.filterMode = FilterMode.Trilinear;
             input_cubemap.wrapMode = TextureWrapMode.Clamp;
 
-            input_cubemap.SmoothEdges();
+            //input_cubemap.SmoothEdges();
 
             RenderTextureDescriptor rtd = new RenderTextureDescriptor();
             rtd.autoGenerateMips = false;

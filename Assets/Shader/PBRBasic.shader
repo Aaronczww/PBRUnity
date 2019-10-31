@@ -85,12 +85,12 @@ Shader "PBR/Basic"
 
                 float4 DirectLight = PBRDirectLight(normalDir,viewDir,lightDir,_F0,_Roughness,_Metallic,_Tint);
                 
-                float3 color = EnvLight.xyz + DirectLight.xyz;
+                float3 color = DirectLight.xyz;
 
                 color = color / (color + float3(1.0,1.0,1.0));
                 color = pow(color, float(1.0/2.2));
 
-                return float4(color,1);
+                return float4(color + EnvLight.xyz,1);
             }
             ENDCG
         }
